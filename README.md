@@ -1,2 +1,2 @@
 # graphql-tutorial
-A GraphQL Tutorial Project Containing Sample Code Covering Query, Mutation, Pagination and Subscription
+A GraphQL tutorial project containing sample code covering GraphQL features including query, mutation, pagination and subscription
