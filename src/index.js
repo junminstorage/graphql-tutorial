@@ -1,6 +1,6 @@
 'use strict'
 const express = require('express')
-const graphqlHTTP = require('express-graphql')
+const {getGraphQLParams, graphqlHTTP} = require('express-graphql')
 
 const typeDefs = require('./schema')
 const resolvers = require('./resolvers')
@@ -19,11 +19,11 @@ const myContext = {'t': 1}
 var app = express()
 app.use('/graphql', (req, res, next) => {
     //logging
-    graphqlHTTP.getGraphQLParams(req).then(params => {
+    getGraphQLParams(req).then(params => {
       console.log(params);
     })
   
-    graphqlHTTP.graphqlHTTP({
+    graphqlHTTP({
       schema: schema,
       graphiql: {subscriptionEndpoint : subscriptionEndpoint},
       // context can be passed to resolver function

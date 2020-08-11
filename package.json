@@ -1,7 +1,7 @@
 {
   "name": "graphql-tutorial",
   "version": "1.0.0",
-  "description": "graphql tutorial",
+  "description": "graphql tutorial project",
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
