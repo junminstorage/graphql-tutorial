@@ -1,0 +1,38 @@
+{
+  "name": "graphql-tutorial",
+  "version": "1.0.0",
+  "description": "graphql tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junminstorage/graphql-tutorial.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/junminstorage/graphql-tutorial/issues"
+  },
+  "homepage": "https://github.com/junminstorage/graphql-tutorial",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "git+https://github.com/junminstorage/express-graphql.git#subscription",
+    "graphql": "^0.13.0",
+    "graphql-subscriptions": "^0.5.8",
+    "graphql-tools": "^2.20.2",
+    "nodemon": "^1.15.0",
+    "subscriptions-transport-ws": "^0.9.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^6.0.0",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.2.2"
+  }
+}

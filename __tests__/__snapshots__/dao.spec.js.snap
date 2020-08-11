@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dao dao.tweet 1`] = `
+Object {
+  "author_id": 10,
+  "body": "Lorem Ipsum",
+  "date": 2018-01-01T00:00:00.000Z,
+  "id": 1,
+}
+`;
