@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon src/index.js",
+    "start:v1": "nodemon src/index_v1.js",
     "test": "jest"
   },
   "repository": {
@@ -23,8 +24,10 @@
     "graphql": "^0.13.0",
     "graphql-subscriptions": "^0.5.8",
     "graphql-tools": "^2.20.2",
+    "graphql-ws": "^3.2.0",
     "nodemon": "^1.15.0",
-    "subscriptions-transport-ws": "^0.9.6"
+    "subscriptions-transport-ws": "^0.9.6",
+    "ws": "^7.4.2"
   },
   "devDependencies": {
     "eslint": "^4.17.0",
